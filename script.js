@@ -334,14 +334,14 @@ var filesystem = {
         filesystem.instance.mkdir('weeks/2023/36th/aw23/september/fourth/11thhour/59thminute');
         filesystem.instance.mkdir('weeks/2023/36th/aw23/september/fourth/11thhour/59thminute/59thsecond');
         filesystem.instance.mkdir('weeks/2023/36th/aw23/september/fourth/11thhour/59thminute/59thsecond/secondlastmilisecond');
-        filesystem.instance.mkdir('weeks/2023/36th/aw23/september/fourth/11thhour/59thminute/59thsecond/secondlastmilisecond/this moment is eternal');
+        filesystem.instance.mkdir('weeks/2023/36th/aw23/september/fourth/11thhour/59thminute/59thsecond/secondlastmilisecond/this_moment_is_eternal');
 
 
        
 
 
         
-        filesystem.instance.cat('>', 'weeks/2023/36th/aw23/september/fourth/11thhour/59thminute/59thsecond/secondlastmilisecond/this moment is eternal/rootfile.txt', 'potemkinantonym.github.io is now live');
+        filesystem.instance.cat('>', 'weeks/2023/36th/aw23/september/fourth/11thhour/59thminute/59thsecond/secondlastmilisecond/this_moment_is_eternal/rootfile.txt', 'potemkinantonym.github.io is now live');
         filesystem.instance.cat('>', 'years/seasons/cmsc141/autumnwinter.txt', 'AW23 teaser \n https://9db8-24aec26c7663-staging.phoebephilo.com/media/wysiwyg/homepage/Image.png?');
         filesystem.instance.cat('>', 'years/seasons/cmsc142/audio.txt', 'AW23 Soundtrack \n \n https://soundcloud.com/ssssonic/celine-ss-2016-rtw-paris');
         filesystem.instance.cat('>', 'years/2023/cmsc142/autumnwinter.txt', 'AW23 teaser \n https://9db8-24aec26c7663-staging.phoebephilo.com/media/wysiwyg/homepage/Image.png?');
