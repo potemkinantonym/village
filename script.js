@@ -340,7 +340,7 @@ var filesystem = {
        
 
 
-        
+        filesystem.instance.cat('>', 'weeks/2023/36th/aw23/september/fourth/new.txt', 'Paris bag \n Court Trousers \n Island Sanglasses \n Adjacemt Necklace \n Seychelles Mink coat \n');
         filesystem.instance.cat('>', 'weeks/2023/36th/aw23/september/fourth/11thhour/59thminute/59thsecond/secondlastmilisecond/this_moment_is_eternal/rootfile.txt', 'potemkinantonym.github.io is now live');
         filesystem.instance.cat('>', 'years/seasons/cmsc141/autumnwinter.txt', 'AW23 teaser \n https://9db8-24aec26c7663-staging.phoebephilo.com/media/wysiwyg/homepage/Image.png?');
         filesystem.instance.cat('>', 'years/seasons/cmsc142/audio.txt', 'AW23 Soundtrack \n \n https://soundcloud.com/ssssonic/celine-ss-2016-rtw-paris');
