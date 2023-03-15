@@ -50,7 +50,6 @@
 
         this.traverse = function() {
             if (this.root !== null) {
-                var queue = [this.root];
                 var levels = [];
                 var level = [];
                 for (var i = 1, j = 0; queue.length;) {
@@ -1111,7 +1110,7 @@ Terminal.prototype.location = function(location) {
     var self = this;
     self.pointer = location;
     self.prompt.text(filesystem.absolute_path(location));
-    self.dom.attr('data-title', 'Terminal - ' +( location.key ? location.key : '/'));
+    self.dom.attr('data-title', 'pp atelier terminal - ' +( location.key ? location.key : '/'));
     setTimeout(function() {
         self.input.css('text-indent', (self.prompt.width() / 7 + 1) * 7 - 0.5 + 'px');
     }, 0);
